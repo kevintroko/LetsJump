@@ -51,11 +51,6 @@ img{
 
 }
 
-#redondo{
-	border-radius: 20px;
-}
-
-
 .progressText{
 	/*vertical-align: bottom;*/
 	position: relative;
