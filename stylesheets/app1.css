@@ -12,8 +12,9 @@ p{
 	font-size: 1.2em;
 	color: #7F7A7F;
 
-
 }
+
+
 
 blockquote{
 	padding-top: 15px;
@@ -68,7 +69,11 @@ img{
 .progress{
 	width: 270px;
 	height: 200px;
-	margin: auto;
+	position: relative;
+	text-align: center;
+	margin-top: 15px;
+
+	/*margin: auto;*/
 }
 
 
@@ -121,3 +126,4 @@ img{
 #link{
 	color: #252586;
 }
+
