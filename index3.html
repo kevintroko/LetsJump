@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Prototype</title>
+  <title>Technical</title>
 
   <link rel="stylesheet" href="stylesheets/normalize.css" />
 
@@ -52,7 +52,7 @@
               <!-- Right Nav Section -->
               <ul class="right">
                 
-                <li><a href="#">Solucion</a></li>
+                <li><a href="index.html">Solucion</a></li>
               
                 <li><a href="#TEAM">Team</a></li>
                 
@@ -70,35 +70,84 @@
   <div class="row">
     <div class="small-12 large-12 columns">  
 
-  	<img src="images/manos.jpg">
+  	<img style="border-radius:20px" src="images/c.jpg">
 
     </div>
   </div>
 
 <p>
   <div class="row">
-    <div class="small-12 large-12 columns"><h1><a name="PROBLEMA"></a>Problems to solve</h1></div>
-    <p>Most of the hand therapies for some kids tend to be very monotone and usually is hard to get the kid’s attention in some of the exercises because they do not understand the purpose of them, so we want to solve this problem in order to make easier the therapies for both sides (the kids and the one who does the therapy).</p>
+    <div class="small-12 large-12 columns"><h1><a name="PROBLEMA"></a>Technnical Data</h1></div>
+    <p>The hand device has two kind of sensors, which are conected all by cables direct to the arduino, the arduino is connected by a usb cable to the computer that allows to send the processed data to the computer for the runner game. there are two flexible sensors and one pressure one. </p>
   </div>
 
+  <div class="row" id="doc-tables">
 
+    <div class="large-12 columns">
+      <table>
+        <thead>
+          <tr>
+            <th width="200">Nombre</th>
+            <th width="50">Tipo de dato recibido</th>
+            <th width="150">Especificaciones</th>
+            <th width="150">Función</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img  id="tabla" src="images/flex.jpg"> Force Sensitive Resistor</td>
+            <td>Presión.</td>
+            <td>
+              Sensor de diametro: <em>0.5</em>"
+              Width: <em>0.75"</em>
+              Length: <em>2.375"</em>
+              Range of applied force: <em>100g-10kg</em>
+            </td>
+            <td>Medir presión aplicada en los dedos del guante</td>
+          </tr> 
 
-  <div class="row">
-    <div class="small-12 large-12 columns"><h1><a name="AUDIENCIA"></a>How to solve it</h1>
+          <tr>
+            <td><img src="images/flex2.jpg" id="tabla">Flex Sensor 2.2"</td>
+            <td>Movimiento.</td>
+            <td>Length:<em>2.2"</em> Conector spaced: <em>0.1"</em> Temperature Range: <em>-35°C to +80°C</em></td>
+            <td>Content Goes Here</td>
+            </tr>
 
-    	<p>We are creating a functional prototype for a glove with devices in order to make some entertaining ways to stimulate a certain hand movement in this case the movement in the figure 1.1, where the kid will play a game that will interact with his hand to make a dynamic and visual form to develop a movement and at the same time let the user to play and forget he is doing therapy.</p>
+             <tr>
+            <td><img src="images/intel.jpg" id="tabla">Arduino</td>
+            <td>Datos analogicos.</td>
+            <td>
 
-    </div>
-  </div>
+                6 Analog Inputs
+               32k Flash Memory
+              16Mhz Clock Speed
+               Input Voltage: 7-12
+              
+            </td>
+            <td>Interpreta los datos recibidos de los sensores y los manda al arduino para ser leídos</td>
+          </tr>
 
+           <tr>
+            <td><img src="images/guante.jpg" id="tabla">Guantes Nylon Truper</td>
+            <td>Ninguno.</td>
+            <td>
+              Máxima sensibilidad para manipulaciones delicadas
+              resistentes a la abrasión
+              Lavables
 
-  <div class="row">
-    <div class="small-12 large-12 columns"><h1>Main characteristics</h1><a name="C1"></a>
-    	<p>The device will be connected from a leather handheld with three different sensors on the fingerprints, which two of them are flexible resistances that allows to measure the total voltage that is send to an "Intel Galileo Arduino" to see the movement made by the user, the other kind of sensor is capable to measure the pressure that is a fundamental data for the hand pressure rehabilitation and get the feedback necessary for the game to work. All the information gathered in the Galileo Arduino is connected by a micro usb cable to a computer program named processing where the game is being played. The device is easy to carry and adapt to necessities. </p>
+            </td>
+            <td>En el guante se han cocido todos los sensores utilizados</td>
+          </tr>
+
+        </tbody>
+      </table>
     </div>
   </div>
 
   <p></p>
+
+   <div class="row">
+    <div class="small-12 large-12 columns"><h1><a name="PROBLEMA"></a>Technnical Data</h1></div>
 
    <div class="row">
     <div class="small-3 large-3 columns">
@@ -108,10 +157,10 @@
     <button type="button" class="button primary-dark" href="prezi.com"><a style="color:white" href="prezi.com">Presentation</a></button>
     </div>
     <div class="small-3 large-3 columns">
-      <button pstyle="text-align:center" type="button" class="button primary-dark"><a style="color:white" href="index3.html">Technical Part</a></button>
+      <button pstyle="text-align:center" type="button" class="button primary-dark"><a style="color:white" href="index3.html">Technical</a></button>
     </div>
         <div class="small-3 large-3 columns">
-      <button pstyle="text-align:center" type="button" class="button primary-dark"><a style="color:white" href="index3.hmtl">Video</a></button>
+      <button pstyle="text-align:center" type="button" class="button primary-dark"><a style="color:white" href="index.html">Video</a></button>
     </div>
     
 

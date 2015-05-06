@@ -107,7 +107,10 @@ img{
 	background: #a52a00;
 }
 
-
+#tabla{
+	width: 100px;
+	height: 100px;
+}
 .top-bar-section .dropdown li label {
     white-space: nowrap;
     background: #a52a00;
@@ -127,3 +130,11 @@ img{
 	color: #252586;
 }
 
+.flex-video{
+	width: 400px;
+	height: 300px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
